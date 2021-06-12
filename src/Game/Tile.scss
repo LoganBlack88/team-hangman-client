@@ -1,0 +1,25 @@
+
+.tile {
+  display: inline-block;
+  height: 3rem;
+  width: 3rem;
+  margin: 0.125rem;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: bottom;
+
+  &.letter {
+    border-bottom: 3px solid black;
+  }
+
+  &.space {
+  }
+
+  &.static {
+    width: 1.5rem;
+  }
+
+  h2 {
+    min-height: 38px;
+  }
+}
